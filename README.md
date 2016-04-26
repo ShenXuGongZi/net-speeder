@@ -53,6 +53,7 @@ Linux Cooked interface使用编译（venetX，OpenVZ）：
 普通网卡使用编译（Xen，KVM，物理机）：
 
     sh build.sh
+    ps aux|grep net-speeder 查看运行时间，如果是0的话就是没运行
 
 使用方法(需要root权限启动）：
 
